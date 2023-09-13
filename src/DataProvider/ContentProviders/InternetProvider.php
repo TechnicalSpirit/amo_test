@@ -14,7 +14,7 @@ class InternetProvider extends Internet
         '{{userName}}@{{freeEmailDomain}}',
     ];
     protected static $freeEmailDomain = [
-        'yandex.ru', 'ya.ru', 'gmail.com', 'mail.ru', 'rambler.ru', 'hotmail.com'
+        'yandex.ru', 'ya.ru', 'gmail.com'
     ];
     protected static $tld = [
         'com', 'net', 'org', 'ru',

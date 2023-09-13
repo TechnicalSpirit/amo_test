@@ -15,7 +15,7 @@ class PersonProvider extends  Person
     ];
 
     protected static $middleNameMale = [
-        'Сергеевич', 'Иванович', 'Фёдорович', 'Львович', 'Романович', 'Владимирович',
+        'Сергеевич', 'Иванович', 'Фёдорович', 'Львович', 'Романович',
     ];
 
     protected static $middleNameFemale = [
@@ -23,6 +23,6 @@ class PersonProvider extends  Person
     ];
 
     protected static $lastName = [
-        'Новиков', 'Морозов', 'Петров', 'Волков', 'Соловьёв', 'Васильев', 'Зайцев',
+        'Новиков', 'Морозов', 'Петров', 'Волков', 'Соловьёв',
     ];
 }
