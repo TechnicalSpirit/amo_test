@@ -1,0 +1,15 @@
+{
+    "name": "lev/bizandsoft_0.2",
+    "autoload": {
+        "psr-4": {
+            "Lev\\Bizandsoft02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TechnicalSpirit",
+            "email": "kuavayvyvyv@yandex.ru"
+        }
+    ],
+    "require": {}
+}
