@@ -11,5 +11,10 @@
             "email": "kuavayvyvyv@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "vlucas/phpdotenv": "^5.5",
+        "andrey-tech/amocrm-api-php": "2.7",
+        "symfony/console": "^6.3"
+    }
 }

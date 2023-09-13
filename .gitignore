@@ -1,0 +1,5 @@
+.env
+/vendor
+vendor/*
+/.idea
+.idea/php.xml
