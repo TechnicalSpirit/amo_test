@@ -1,6 +1,6 @@
 <?php
 
-namespace Lev\Bizandsoft02\DataProvider\Providers;
+namespace Lev\Bizandsoft02\DataProvider\ContentProviders;
 
 use Faker\Provider\ru_RU\PhoneNumber;
 

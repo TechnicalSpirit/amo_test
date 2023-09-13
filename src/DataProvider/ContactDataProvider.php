@@ -3,7 +3,9 @@
 namespace Lev\Bizandsoft02\DataProvider;
 
 use Faker\Factory;
-use Lev\Bizandsoft02\DataProvider\Providers\PhoneProvider;
+use Lev\Bizandsoft02\DataProvider\ContentProviders\InternetProvider;
+use Lev\Bizandsoft02\DataProvider\ContentProviders\PhoneProvider;
+
 
 class ContactDataProvider
 {
@@ -15,6 +17,8 @@ class ContactDataProvider
     {
         self::$faker = Factory::create("ru_RU");
         self::$faker->addProvider(new PhoneProvider(self::$faker));
+        self::$faker->addProvider(new InternetProvider(self::$faker));
+        self::$faker->addProvider(new InternetProvider(self::$faker));
     }
 
     public static function makeFakeName():string
@@ -25,7 +29,7 @@ class ContactDataProvider
     {
         $phoneEnum = ['WORK','HOME'];
         return [
-            'value' => self::$faker->optional(1,1)->phoneNumber(),
+            'value' => self::$faker->phoneNumber(),
             'enum'  =>  $phoneEnum[array_rand($phoneEnum)]
         ];
     }
